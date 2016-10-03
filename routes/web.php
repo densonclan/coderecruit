@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('about', function () {
+    return view('about');
+});
+
+Route::get('team', function () {
+    return view('team');
+});
+
+Route::get('contact', function () {
+    return view('contact');
+});
+
 //Recruiter Login
 Route::get('recruiter/login', 'RecruiterAuth\LoginController@showLoginForm');
 Route::post('recruiter/login', 'RecruiterAuth\LoginController@login');

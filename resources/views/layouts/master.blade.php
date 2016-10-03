@@ -28,9 +28,9 @@
     </head>
     <body>
     
-        {{--@include('layouts.partials._navigation')
+        @include('layouts.partials._navigation')
     
-        @include('layouts.partials._header')--}}
+        @include('layouts.partials._header')
     
         @yield('content')
     
